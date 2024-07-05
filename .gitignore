@@ -1,0 +1,54 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+*.egg-info/
+*.egg
+EGG-INFO
+dist/
+build/
+
+# Installer logs
+pip-log.txt
+pip-delete.log
+
+# Unit test / coverage reports
+.tox/
+.coverage
+.coverage.*
+coverage.xml
+.htmlcov/
+
+# IDE files
+.vscode/
+.settings/
+*.iml
+.idea/
+
+
+# Operating system files
+Thumbs.db
+Desktop.ini
+
+# Other
+.env
+*.log
+*.tmp
+datasets
+models
+
+
+.gitignore
+*.jpeg
+
+diffsynth/pipelines/.ipynb_checkpoints/
+
+outputs/
+
+*.mp4
