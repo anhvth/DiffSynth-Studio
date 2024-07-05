@@ -60,5 +60,5 @@ if __name__ == '__main__':
             for name, param in state_dict.items():
                 state_dict_ema[name] = state_dict_ema[name] * gamma + param.float() * (1 - gamma)
         save_path = ckpt_name.replace(".ckpt", "-ema.safetensors")
-        print(f"save to {folder}/{save_path}")
-        save_file(state_dict_ema, f"{folder}/{save_path}")
+    print(f"save to {folder}/{save_path}")
+    save_file(state_dict_ema, f"{folder}/{save_path}")
